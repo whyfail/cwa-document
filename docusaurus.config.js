@@ -11,15 +11,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   // 在此处设置网站的生产网址
-  url: "https://your-docusaurus-test-site.com",
+  url: "http://whyfail.gitee.io",
   //设置为您的站点提供服务的/<baseUrl>/路径名
   //对于GitHub页面部署，通常是'/<project ectName>/'
-  baseUrl: "/",
+  baseUrl: "/cwa-document/",
 
   //GitHub页面部署配置。
   //如果您不使用GitHub页面，则不需要这些。
-  organizationName: "facebook", // 通常是您的GitHub组织/用户名。
-  projectName: "docusaurus", // 通常您的回购名称
+  organizationName: "wu lei", // 通常是您的GitHub组织/用户名。
+  projectName: "cwa-document", // 通常您的回购名称
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
