@@ -2,46 +2,25 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 教程简介
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- 不到一分钟即可创建好一个基本前端项目模板
 
-## Getting Started
+# 环境准备
 
-Get started by **creating a new site**.
+- 首先你的设备上需要安装有 [Git](https://git-scm.com/)
+- 其次你需要安装 [16.14.2 版本的 Node](https://nodejs.org/dist/v16.14.2/)（这里指定的版本是可以在模板中修改的，反正一定要安装 16 版本以上的 Node）
+- 好了，有了这两个环境，就可以开整了
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 开始
 
-### What you'll need
+- 打开你想要创建项目的文件夹，并在此打开**终端**
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- 终端中输入 `npx create-wl-app create`
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- 依次会出现**选择模板**、**项目名称**、**项目概述**，根据自己的项目选择或输入即可
+- 之后就会开始下载选择模板，大概十几秒就能下载好，这里只下载模板，并没有下载依赖
+- 然后在终端中输入 `cd <object-name>`，进入到项目中
+- 首先需要 `git init` 来初始化一个 git 仓库，并`add`和`commit`一下
+- 然后 `npm i` 下载依赖就完事了
+- 最后 `code .` 就会调用 VsCode 来打开这个项目了

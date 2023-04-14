@@ -16,7 +16,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            快速开始 - 1min ⏱️
+            1分钟⏱️ 快速搭建项目模板
           </Link>
         </div>
       </div>
@@ -27,7 +27,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout title={siteConfig.title} description="这是一个开箱即用的脚手架，基于vite的React和Vue3项目模板">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

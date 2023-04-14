@@ -60,12 +60,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // 替换为您项目的社交卡
-      image: "img/docusaurus-social-card.jpg",
+      image: "https://foruda.gitee.com/avatar/1677070687074089995/6553774_python_golang_1584013029.png!avatar100",
       navbar: {
         title: "create-wl-app",
         logo: {
           alt: "create-wl-app",
-          src: "img/logo.svg",
+          src: "https://foruda.gitee.com/avatar/1677070687074089995/6553774_python_golang_1584013029.png!avatar100",
         },
         items: [
           {
@@ -76,7 +76,7 @@ const config = {
           },
           { to: "/blog", label: "更新日志", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://gitee.com/whyfail",
             label: "GitTree",
             position: "right",
           },
@@ -86,46 +86,38 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "文档",
             items: [
               {
-                label: "Tutorial",
+                label: "教程",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "社区",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "CSDN",
+                href: "https://why404.blog.csdn.net/",
               },
             ],
           },
           {
-            title: "More",
+            title: "更多",
             items: [
               {
-                label: "Blog",
+                label: "更新日志",
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "GitTee",
+                href: "https://gitee.com/whyfail",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} create-wl-app, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

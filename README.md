@@ -1,41 +1,22 @@
-# Website
+# 简介
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+- 不到一分钟即可创建好的一个基本前端项目模板
 
-### Installation
+# 环境准备
 
-```
-$ yarn
-```
+- 首先你的设备上需要安装有 [Git](https://git-scm.com/)
+- 其次你需要安装 [16.14.2 版本的 Node](https://nodejs.org/dist/v16.14.2/)（这里指定的版本是可以在模板中修改的，反正一定要安装 16 版本以上的 Node）
+- 好了，有了这两个环境，就可以开整了
 
-### Local Development
+## 开始
 
-```
-$ yarn start
-```
+- 打开你想要创建项目的文件夹，并在此打开**终端**
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- 终端中输入 `npx create-wl-app create`
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- 依次会出现**选择模板**、**项目名称**、**项目概述**，根据自己的项目选择或输入即可
+- 之后就会开始下载选择模板，大概十几秒就能下载好，这里只下载模板，并没有下载依赖
+- 然后在终端中输入 `cd <object-name>`，进入到项目中
+- 首先需要 `git init` 来初始化一个 git 仓库，并`add`和`commit`一下
+- 然后 `npm i` 下载依赖就完事了
+- 最后 `code .` 就会调用 VsCode 来打开这个项目了
