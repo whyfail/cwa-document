@@ -41,13 +41,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           //请将其更改为您的repo。
           //删除它以删除“编辑此页面”链接。
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://gitee.com/whyfail/cwa-document/tree/master/docs/",
         },
         blog: {
           showReadingTime: true,
           //请将其更改为您的repo。
           //删除它以删除“编辑此页面”链接。
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://gitee.com/whyfail/cwa-document/tree/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
