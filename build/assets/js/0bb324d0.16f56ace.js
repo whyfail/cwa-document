@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[796],{7362:e=>{e.exports=JSON.parse('{"label":"prettier","permalink":"/cwa-document/blog/tags/prettier","allTagsPath":"/cwa-document/blog/tags","count":1}')}}]);

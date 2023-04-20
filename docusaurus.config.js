@@ -92,6 +92,10 @@ const config = {
                 label: "教程",
                 to: "/docs/intro",
               },
+              {
+                label: "更新日志",
+                to: "/blog",
+              },
             ],
           },
           {
@@ -106,10 +110,6 @@ const config = {
           {
             title: "更多",
             items: [
-              {
-                label: "更新日志",
-                to: "/blog",
-              },
               {
                 label: "GitTee",
                 href: "https://gitee.com/whyfail",

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2023-04-14","permalink":"/cwa-document/blog/2023-04-14"}]}')}}]);
