@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[27],{9101:a=>{a.exports=JSON.parse('{"label":"create-wl-app","permalink":"/cwa-document/blog/tags/create-wl-app","allTagsPath":"/cwa-document/blog/tags","count":3}')}}]);
