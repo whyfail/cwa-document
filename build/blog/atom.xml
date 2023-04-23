@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://whyfail.gitee.io/cwa-document/blog</id>
     <title>create-wl-app Blog</title>
-    <updated>2023-04-20T00:00:00.000Z</updated>
+    <updated>2023-04-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://whyfail.gitee.io/cwa-document/blog"/>
     <subtitle>create-wl-app Blog</subtitle>
     <icon>http://whyfail.gitee.io/cwa-document/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2023-04-23]]></title>
+        <id>http://whyfail.gitee.io/cwa-document/blog/2023-04-23</id>
+        <link href="http://whyfail.gitee.io/cwa-document/blog/2023-04-23"/>
+        <updated>2023-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- 更新 vite 到 4.3 版本]]></summary>
+        <content type="html"><![CDATA[<ul><li>更新 vite 到 4.3 版本</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="vite-43-is-out">Vite 4.3 is out!<a href="#vite-43-is-out" class="hash-link" aria-label="Vite 4.3 is out!的直接链接" title="Vite 4.3 is out!的直接链接">​</a></h2><p><img loading="lazy" alt="vite-4.3" src="/cwa-document/assets/images/blog-img-vite4-3-22978c0007a609dd3d7119b67bcdc47f.png" width="2000" height="1002" class="img_ev3q"></p><ul><li><p>本次迭代中，我们专注于改善开发服务器的性能。我们优化了解析逻辑，改进了热路径，并实现了更智能的缓存，用于查找 package.json、TS 配置文件和解析的 URL 等。</p></li><li><p>你可以在 Vite 的贡献者之一的博客文章中详细了解本次性能工作：<a href="https://sun0day.github.io/blog/vite/why-vite4_3-is-faster.html" target="_blank" rel="noopener noreferrer">How we made Vite 4.3 faaaaster 🚀</a>。</p></li><li><p>与 Vite 4.2 相比，这次迭代在各方面都取得了速度提升。</p></li><li><p>以下是 <a href="https://github.com/sapphi-red/performance-compare" target="_blank" rel="noopener noreferrer">sapphi-red/performance-compare</a> 测试结果，该测试用例包含 1000 个 React 组件，在冷启动和热启动的情况下测试开发服务器的启动时间以及根组件和叶子组件的 HMR 时间：</p></li></ul><table><thead><tr><th>Vite (babel)</th><th>Vite 4.2</th><th>Vite 4.3</th><th>改进</th></tr></thead><tbody><tr><td>开发冷启动</td><td>17249.0ms</td><td>5132.4ms</td><td>-70.2%</td></tr><tr><td>开发热启动</td><td>6027.8ms</td><td>4536.1ms</td><td>-24.7%</td></tr><tr><td>根 HMR</td><td>46.8ms</td><td>26.7ms</td><td>-42.9%</td></tr><tr><td>子 HMR</td><td>27.0ms</td><td>12.9ms</td><td>-52.2%</td></tr></tbody></table><table><thead><tr><th>Vite (swc)</th><th>Vite 4.2</th><th>Vite 4.3</th><th>改进</th></tr></thead><tbody><tr><td>开发冷启动</td><td>13552.5ms</td><td>3201.0ms</td><td>-76.4%</td></tr><tr><td>开发热启动</td><td>4625.5ms</td><td>2834.4ms</td><td>-38.7%</td></tr><tr><td>根 HMR</td><td>30.5ms</td><td>24.0ms</td><td>-21.3%</td></tr><tr><td>子 HMR</td><td>16.9ms</td><td>10.0ms</td><td>-40.8%</td></tr></tbody></table><p><img loading="lazy" alt="vite-4.3" src="/cwa-document/assets/images/vite4-3-startup-time-7dd56c0b7d8d763a1e994ea22b6393c6.png" width="1600" height="1178" class="img_ev3q">
+<img loading="lazy" alt="vite-4.3" src="/cwa-document/assets/images/vite4-3-hmr-time-c0102539ccb32d72f09614077317830f.png" width="1600" height="1178" class="img_ev3q"></p><ul><li><p>你可以在<a href="https://gist.github.com/sapphi-red/25be97327ee64a3c1dce793444afdf6e" target="_blank" rel="noopener noreferrer">这里</a>阅读有关基准测试的更多信息。本次性能测试的规格和版本如下：</p></li><li><p>CPU：Ryzen 9 5900X，内存：DDR4-3600 32GB，固态硬盘：WD Blue SN550 NVME SSD
+Windows 10 Pro 21H2 19044.2846
+Node.js 18.16.0</p></li><li><p>Vite 和 React 插件版本</p><ul><li>Vite 4.2（babel）：Vite 4.2.1 + plugin-react 3.1.0</li><li>Vite 4.3（babel）：Vite 4.3.0 + plugin-react 4.0.0-beta.1</li><li>Vite 4.2（swc）：Vite 4.2.1 + plugin-react-swc 3.2.0</li><li>Vite 4.3（swc）：Vite 4.3.0 + plugin-react-swc 3.3.0</li></ul></li><li><p>早期采用者在测试 Vite 4.3 beta 时还报告了实际应用程序的 1.5 倍至 2 倍的开发启动时间改进。</p></li></ul>]]></content>
+        <author>
+            <name>吴磊</name>
+            <uri>https://gitee.com/whyfail</uri>
+        </author>
+        <category label="create-wl-app" term="create-wl-app"/>
+        <category label="vite" term="vite"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023-04-20]]></title>
         <id>http://whyfail.gitee.io/cwa-document/blog/2023-04-20</id>
