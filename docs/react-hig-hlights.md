@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# React 项目亮点
+# React 模板核心
 
 ## 兼容性
 
@@ -20,7 +20,8 @@ sidebar_position: 2
 ## 方便开发的工具
 
 - `react-dev-inspector`：只需单击一下即可直接从浏览器跳转到本地 IDE 代码 React 组件，配置是在 [src/main.jsx](https://gitee.com/whyfail/vite_react_init/blob/master/src/main.jsx) 文件中，运行项目后，按住`control + y` 选中元素点击，即可打开 IDE 对应的代码；
+  ![dev-inspect](./img/dev-inspect.gif)
 - `ahooks`: 由阿里出品的一套高质量可靠的 React Hooks 库，里面包含了非常多实用的 `Hooks` ,其中 [useRequest](https://ahooks.js.org/zh-CN/hooks/use-request/index) 是一个强大的异步数据管理的 Hooks，React 项目中的网络请求场景使用 `useRequest` 就够了；
 - `axios`: 请求库，在[src/apis/index.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/apis/index.js)中做了简单的配置，并在[src/apis/api_user.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/apis/api_user.js)中提供了实用示例；
 - `mobx`: React 项目中采用了 `Mobx` 作为全局状态管理库，使用起来也非常的简单易用，在[src/store/storeOther.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/store/storeOther.js) 文件中给出了示例状态模块化，统一由[src/store/index.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/store/index.js) 文件中导出使用，在 [src/components/index.jsx](https://gitee.com/whyfail/vite_react_init/blob/master/src/components/index.jsx)文件中给出了使用示例，注意点就是一定要用 `observer` 来包括组件，达到组件响应式。
-- `react-jss`：一个 `CSS=IN-JSS` 库，因为 React 没有像 Vue 中的 `<style scoped>` 语法，没法隔离样式，所以采用了 `react-jss` 库来实现同一文件中写样式并样式隔离，在 [src/components/index.jsx](https://gitee.com/whyfail/vite_react_init/blob/master/src/components/index.jsx) 文件中给出了示例代码。
+- `react-jss`：一个 `CSS-IN-JSS` 库，因为 React 没有像 Vue 中的 `<style scoped>` 语法，没法隔离样式，所以采用了 `react-jss` 库来实现同一文件中写样式并样式隔离，在 [src/components/index.jsx](https://gitee.com/whyfail/vite_react_init/blob/master/src/components/index.jsx) 文件中给出了示例代码。
