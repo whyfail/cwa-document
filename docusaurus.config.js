@@ -79,7 +79,7 @@ const config = {
           { to: "/blog", label: "更新日志", position: "left" },
           {
             href: "https://gitee.com/whyfail",
-            label: "GitTree",
+            label: "GitTee",
             position: "right",
           },
         ],
