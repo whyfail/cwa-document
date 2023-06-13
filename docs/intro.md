@@ -8,7 +8,8 @@ sidebar_position: 1
 
 [![Fork me on Gitee](https://gitee.com/whyfail/cwa-document/widgets/widget_6.svg)](https://gitee.com/whyfail/cwa-document)
 
-[![小磊丶同学/cwa-document](https://gitee.com/whyfail/cwa-document/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/cwa-document)
+[![小磊丶同学/vite_react_init](https://gitee.com/whyfail/vite_react_init/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/vite_react_init)
+[![小磊丶同学/vite_vue3_init](https://gitee.com/whyfail/vite_vue3_init/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/vite_vue3_init)
 
 - 不到一分钟即可创建好一个基本前端项目模板
 
