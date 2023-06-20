@@ -16,19 +16,15 @@ sidebar_position: 4
 
 ## 方便开发的工具
 
-- `vite-plugin-vue-inspector`：只需单击一下即可直接从浏览器跳转到本地 IDE 代码 Vue 组件的插件，按`control + y` 激活插件，右上角会有一个 logo 出现，然后就可以点击组件进行跳转到 IDE 的代码处，再次按`control + y` 隐藏此功能；
+- `vite-code-inspector-plugin`：只需单击一下即可直接从浏览器跳转到本地 IDE 代码 Vue 组件的插件，按 window(`alt + shift`)\mac(`option + shift`) 激活插件，然后就可以点击组件进行跳转到 IDE 的代码处；
 
 ```js
 import { defineConfig } from "vite"
-import Inspector from "vite-plugin-vue-inspector"
+import { ViteCodeInspectorPlugin } from "vite-code-inspector-plugin"
 
 export default defineConfig({
   base: "./",
-  plugins: [
-    Inspector({
-      toggleComboKey: "control-y",
-    }),
-  ],
+  plugins: [ViteCodeInspectorPlugin()],
 })
 ```
 
