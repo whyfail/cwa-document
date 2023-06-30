@@ -4,10 +4,20 @@
         <title>create-wl-app Blog</title>
         <link>http://whyfail.gitee.io/cwa-document/blog</link>
         <description>create-wl-app Blog</description>
-        <lastBuildDate>Wed, 24 May 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[2023-06-30]]></title>
+            <link>http://whyfail.gitee.io/cwa-document/blog/2023-06-30</link>
+            <guid>http://whyfail.gitee.io/cwa-document/blog/2023-06-30</guid>
+            <pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Vue3 模板 添加新调试工具库]]></description>
+            <content:encoded><![CDATA[<ul><li>Vue3 模板 添加新调试工具库</li></ul><p><img loading="lazy" alt="vite-plugin-vue-devtools" src="/cwa-document/assets/images/image-38f8dbc21d9440cb2a2e03536c4658b5.png" width="1926" height="922" class="img_ev3q"></p><ul><li><a href="https://github.com/webfansplz/vite-plugin-vue-devtools" target="_blank" rel="noopener noreferrer">vite-plugin-vue-devtools</a>：是一个旨在增强 Vue 开发人员体验的 Vite 插件。</li></ul>]]></content:encoded>
+            <category>create-wl-app</category>
+            <category>vite</category>
+        </item>
         <item>
             <title><![CDATA[2023-05-24]]></title>
             <link>http://whyfail.gitee.io/cwa-document/blog/2023-05-24</link>
