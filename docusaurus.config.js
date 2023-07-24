@@ -49,7 +49,8 @@ const config = {
           //请将其更改为您的repo。
           //删除它以删除“编辑此页面”链接。
           editUrl: "https://gitee.com/whyfail/cwa-document/tree/master/",
-          blogSidebarTitle: "近期更新",
+          blogSidebarTitle: "全部更新",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
