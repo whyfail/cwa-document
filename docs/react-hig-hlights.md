@@ -12,6 +12,7 @@ sidebar_position: 3
 
 ## 页面适配方案
 
+- 移除适配方法在[这里](/blog/2023-10-17)
 - 统一采用的都用的是：`postcss-pxtorem` 这个插件来实现 `px` 转 `rem` 来做页面适配方案；
   - 在**React**项目中，因为采用了 `react-jss` ，是 `CSS-In-JS` 方案，所以无法采用 `postcss-pxtorem` 来实现单位转换，这里我手写了个单位转换插件，并挂载到了 `react-jss` 上，插件位置在：[src/common/common-jss-plugin.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/common/common-jss-plugin.js)
 - 改变窗口大小时重新设置 `rem` 的方法是在 [src/common/common-set-rem.js](https://gitee.com/whyfail/vite_react_init/blob/master/src/common/common-set-rem.js) 文件中，然后在 [src/App.jsx](https://gitee.com/whyfail/vite_react_init/blob/master/src/App.jsx) 中调用；

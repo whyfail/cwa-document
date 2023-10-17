@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[4589],{2471:e=>{e.exports=JSON.parse('{"label":"pxtorem","permalink":"/cwa-document/blog/tags/pxtorem","allTagsPath":"/cwa-document/blog/tags","count":1}')}}]);

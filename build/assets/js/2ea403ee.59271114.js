@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[8529],{5679:e=>{e.exports=JSON.parse('{"permalink":"/cwa-document/blog/tags/pxtorem","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
