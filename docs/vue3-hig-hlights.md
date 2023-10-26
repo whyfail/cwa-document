@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Vue3 模板核心
 
+[![小磊丶同学/vite_vue3_init](https://gitee.com/whyfail/vite_vue3_init/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/vite_vue3_init)
+
 ## 兼容性
 
 - 浏览器语法兼容性以 `@vitejs/plugin-legacy` 配置为准；

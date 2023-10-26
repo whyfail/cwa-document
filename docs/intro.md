@@ -4,19 +4,12 @@ sidebar_position: 1
 
 # 教程简介
 
-[![star](https://gitee.com/whyfail/cwa-document/badge/star.svg?theme=dark)](https://gitee.com/whyfail/cwa-document/stargazers)
-
-[![Fork me on Gitee](https://gitee.com/whyfail/cwa-document/widgets/widget_6.svg)](https://gitee.com/whyfail/cwa-document)
-
-[![小磊丶同学/vite_react_init](https://gitee.com/whyfail/vite_react_init/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/vite_react_init)
-[![小磊丶同学/vite_vue3_init](https://gitee.com/whyfail/vite_vue3_init/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/whyfail/vite_vue3_init)
-
 - 不到一分钟即可创建好一个基本前端项目模板
 
 ## 环境准备
 
 1. 首先，请确保你的设备上已经安装了 [Git](https://git-scm.com/)。
-2. 接着，你需要安装 [16.0.0 版本以上的的 Node](https://nodejs.org)（这里指定的版本可以在模板中修改，但至少需要安装 16 版本以上的 Node）。
+2. 接着，你需要安装 [16.14.2 版本以上的的 Node](https://nodejs.org)（这里指定的版本可以在模板中修改，但至少需要安装 16.14.2 版本以上的 Node）。
 3. 安装完这两个环境后，你就可以开始创建项目了。
 
 ## 开始
