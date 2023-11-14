@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[630],{5302:a=>{a.exports=JSON.parse('{"label":"unocss","permalink":"/cwa-document/blog/tags/unocss","allTagsPath":"/cwa-document/blog/tags","count":1}')}}]);
