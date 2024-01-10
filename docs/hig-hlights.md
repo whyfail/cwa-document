@@ -45,7 +45,6 @@ build: {
     output: {
       manualChunks: {
         vue: ['vue'],
-        vueuse: ['@vueuse/core'],
         lodashEs: ['lodash-es'],
         elementPlus: ['element-plus'],
       },
@@ -58,20 +57,12 @@ build: {
 
 - 采用**Esbuild**
 - ~~**Vite** 默认为 **Esbuild**，它比 **terser** 快 20-40 倍，压缩率只差 1%-2%；~~
-- ~~但这里我还是改为：**terser**，除了压缩更小之外，也能有更多的配置；~~
 - ~~打包后去掉 **console** 和 **debugger**，需要注意的是 console 有可能造成内存泄漏，所以还是有必要禁止的；~~
 
 ```js
-build: {
-  minify: 'terser',
-  terserOptions: {
-    compress: {
-      drop_console: true,
-      drop_debugger: true,
-    },
-  },
-}
-
+esbuild: {
+  drop: ['debugger', 'console'],
+},
 ```
 
 ### 适配方法
