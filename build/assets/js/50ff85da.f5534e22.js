@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcwa_document=self.webpackChunkcwa_document||[]).push([[393],{5340:e=>{e.exports=JSON.parse('{"permalink":"/cwa-document/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/cwa-document/blog","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
