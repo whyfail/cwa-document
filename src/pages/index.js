@@ -27,7 +27,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={siteConfig.title} description="这是一个开箱即用的脚手架，基于vite的React和Vue3项目模板">
+    <Layout title={siteConfig.title} description="create-wl-app是一个开箱即用的脚手架，基于vite的React和Vue3项目模板">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

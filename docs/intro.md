@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: 教程简介
+keywords: [create-wl-app, 开箱即用, 脚手架, vite, React, Vue3, 前端, 前端框架, 前端开发, 前端开发工具]
 ---
 
 # 教程简介

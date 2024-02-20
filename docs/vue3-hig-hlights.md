@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+keywords: [create-wl-app, 开箱即用, 脚手架, vite, React, Vue3, 前端, 前端框架, 前端开发, 前端开发工具]
 ---
 
 # Vue3 模板核心
