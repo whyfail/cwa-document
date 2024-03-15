@@ -6,6 +6,7 @@ import Layout from "@theme/Layout"
 import HomepageFeatures from "@site/src/components/HomepageFeatures"
 
 import styles from "./index.module.css"
+import ThreeWater from "./ThreeWater"
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
@@ -27,9 +28,14 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={siteConfig.title} description="create-wl-app是一个开箱即用的脚手架，基于vite的React和Vue3项目模板">
+    <Layout
+      title={siteConfig.title}
+      wrapperClassName="root_class"
+      description="create-wl-app是一个开箱即用的脚手架，基于vite的React和Vue3项目模板"
+    >
+      <ThreeWater />
       <HomepageHeader />
-      <main>
+      <main style={{ position: "relative", zIndex: 1000 }}>
         <HomepageFeatures />
       </main>
     </Layout>
