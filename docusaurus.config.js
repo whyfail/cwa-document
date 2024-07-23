@@ -19,8 +19,8 @@ const config = {
 
   //GitHub页面部署配置。
   //如果您不使用GitHub页面，则不需要这些。
-  organizationName: "wu lei", // 通常是您的GitHub组织/用户名。
-  projectName: "cwa-document", // 通常您的回购名称
+  organizationName: "whyfail", // 通常是您的GitHub组织/用户名。
+  projectName: "whyfail.github.io/cwa-document/", // 通常您的回购名称
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
